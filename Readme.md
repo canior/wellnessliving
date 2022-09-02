@@ -94,7 +94,7 @@ insert into t values (null, 3, FROM_UNIXTIME(UNIX_TIMESTAMP('2022-09-01 00:00:00
 Query to retrieve date and text of the last message for all users.
 
 ````
-select uid, max(dt) as dt, s from t group by uid;
+select max(dt) as dt, s from t group by uid;
 ````
 
 Result will be similar
