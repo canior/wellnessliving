@@ -1,0 +1,16 @@
+{
+    "name": "mac/wellnessliving",
+    "require": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Yadi Tang"
+        }
+    ]
+}
